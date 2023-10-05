@@ -49,5 +49,5 @@ int main(int ac, char *av[], char **env)
 				break;
 		}
 	}
+	return (0);
 }
-

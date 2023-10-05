@@ -43,7 +43,7 @@ void string_cpy(int dest, char *s, char **mem)
 		exit(0);
 	}
 
-	for (index = 0; i < dest; index += 1)
+	for (index = 0; index < dest; index++)
 		(*mem)[index] = s[index];
 	(*mem)[index] = '\0';
 }
